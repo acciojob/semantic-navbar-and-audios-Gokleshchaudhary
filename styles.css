@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arrange list items horizontally */
+    justify-content: center; /* Center the links */
+}
+
+nav li {
+    margin: 0 15px; /* Add space between list items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+audio {
+    display: block; /* Stack audio players vertically */
+    margin-bottom: 15px; /* Add space between audio players */
+}
